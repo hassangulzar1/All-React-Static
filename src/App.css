@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+* {
+  font-family: Arial;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.portfolio {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cardport {
+  width: 40rem;
+  height: 100%;
+
+  border: 0.1px solid black;
+  text-align: center;
+  margin: 0px 1rem;
+}
+
+.cardport .cardportcontent {
+  padding: 1rem;
+  background-color: rgb(243, 239, 239);
+}
+
+.cardportitems span {
+  background: green;
+  text-shadow: 0px 0.2rem 0.2rem black;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
   color: white;
+  border-radius: 9.9rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.cardportitems span:hover {
+  background: black;
+  transition: all 0.23s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardport img {
+  width: 100%;
+  height: 20rem;
+}
+
+/* CSS */
+.cardport button {
+  background: #f2251e;
+  border: 0.1rem solid #ff4742;
+  border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0.1rem 0.2rem 0.4rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.6rem;
+  min-height: 4rem;
+  outline: 0;
+  padding: 1.2rem 1.4rem;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.cardport button:hover,
+.cardport button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.cardport button:active {
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
 }
