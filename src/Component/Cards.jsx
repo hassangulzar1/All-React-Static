@@ -9,7 +9,8 @@ const Cards = (props) => {
             <span className=" pointer-event">Source Code</span>
           </a>
         </div>
-        <h3 className="mt-3">{props.name}</h3>
+        <h3 className="my-3">{props.name}</h3>
+        <p className="fs-3">{props.desc}</p>
         <a target="_blank" href={props.link}>
           <button>Preview</button>
         </a>
