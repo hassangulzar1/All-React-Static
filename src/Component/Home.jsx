@@ -49,7 +49,7 @@ const Home = () => {
           desc="50% Responsive Figma To React-Static"
           name="Burger-King"
           sourceLink="https://github.com/hassangulzar1/BurgerWebsite-React-Static.git"
-          img="Assets/BurgerKing1.png"
+          img="Assets/BURGER.png"
         />
       </div>
     </div>
